@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/yidianlistitem">
+	
+	<TextView android:id="@+id/ordertitle" 
+		android:layout_width="120dp"
+		android:layout_height="wrap_content" 
+		android:textColor="#000000"
+		android:textIsSelectable="false"
+		android:textSize="20sp"/>
+	<TextView
+	    android:id="@+id/orderprice"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textSize="20sp" 
+	    android:textIsSelectable="false"
+	    android:layout_weight="1"/>
+	<TextView
+	    android:id="@+id/ordernum"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textSize="20sp" 
+	    android:textIsSelectable="false"
+	    android:layout_weight="1"/>
+	<TextView 
+	    android:id="@+id/itemprice"
+	    android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textIsSelectable="false"
+	    android:layout_weight="1"
+	    android:textSize="20sp" />
+
+</TableRow>

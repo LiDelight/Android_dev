@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="hdpi"
+    format="7"
+    timestamp="8647387627746"
+    token="8068284941584616721" >
+
+    <task
+        name="javac"
+        duration="733" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="301" />
+    <task
+        name="verifier"
+        duration="81" />
+
+    <artifact
+        location="E:\fyj\Android-AndroidStudio\chapter5\MobileOrderFood\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="8647387627746" >
+        <artifact
+            location="E:\fyj\Android-AndroidStudio\chapter5\MobileOrderFood\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,228 @@
+[
+    {
+        "outputFile": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\values-v19\\values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 215,
+                        "endColumn": 45,
+                        "endOffset": 256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 42,
+                    "endOffset": 139
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 261,
+                        "endColumn": 42,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 144,
+                    "endColumn": 55,
+                    "endOffset": 195
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 304,
+                        "endColumn": 55,
+                        "endOffset": 355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 200,
+                    "endColumn": 53,
+                    "endOffset": 249
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 360,
+                        "endColumn": 53,
+                        "endOffset": 409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 254,
+                    "endColumn": 41,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 41,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 296,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1071
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 616,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1076,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 1875
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1396,
+                        "endLine": 38,
+                        "endColumn": 12,
+                        "endOffset": 2195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1880,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 2856
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2200,
+                        "endLine": 54,
+                        "endColumn": 12,
+                        "endOffset": 3176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2861,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 3137
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3181,
+                        "endLine": 58,
+                        "endColumn": 12,
+                        "endOffset": 3457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3142,
+                    "endLine": 58,
+                    "endColumn": 12,
+                    "endOffset": 3390
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3462,
+                        "endLine": 62,
+                        "endColumn": 12,
+                        "endOffset": 3710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3395,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 3631
+                },
+                "from": {
+                    "file": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3715,
+                        "endLine": 66,
+                        "endColumn": 12,
+                        "endOffset": 3951
+                    }
+                }
+            }
+        ]
+    }
+]

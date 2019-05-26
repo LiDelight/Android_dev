@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout   
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"   
+    android:orientation="vertical"
+    android:layout_gravity="center"
+   	xmlns:android="http://schemas.android.com/apk/res/android">  
+	<LinearLayout   
+	    android:layout_width="wrap_content"   
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal">   
+		<TextView 
+		     android:layout_width="wrap_content"   
+		     android:layout_height="wrap_content"   
+		     android:text="数量"/>  
+		<Button 
+		     android:layout_width="40dp"
+		     android:layout_height="wrap_content"
+		     android:id="@+id/btnSub"
+		     android:text="-"/>
+		<TextView 
+		     android:layout_width="40dp"
+		     android:layout_height="wrap_content"
+		     android:id="@+id/tvOrderNum"
+		     android:gravity="center"
+		     android:text="1"/>
+		<Button 
+		     android:layout_width="30dp"
+		     android:layout_height="wrap_content"
+		     android:id="@+id/btnAdd"
+		     android:text="+"/>       
+	</LinearLayout>
+	<LinearLayout   
+	    android:layout_width="wrap_content"   
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal"> 
+		<Button 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="确  定"
+		    android:id="@+id/order_dialog_ok"/>
+		<Button 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="取  消"
+		    android:id="@+id/order_dialog_cancel"/>
+	</LinearLayout>
+</LinearLayout>  
