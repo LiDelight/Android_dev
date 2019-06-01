@@ -312,6 +312,10 @@
         "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\serverip.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\serverip.xml"
+    },
+    {
         "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_title_item.xml"
     },

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="局域网服务器IP："/>
+        <EditText
+            android:id="@+id/etServerIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8">
+            <requestFocus/>
+         </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="互联网服务器IP："/>
+        <EditText
+            android:id="@+id/etHttpServerIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8">
+            <requestFocus/>
+        </EditText>
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/rbTcpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="TCP通信"/>
+
+        <RadioButton
+            android:id="@+id/rbHttpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Http通信"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:text="确定"/>
+
+</LinearLayout>

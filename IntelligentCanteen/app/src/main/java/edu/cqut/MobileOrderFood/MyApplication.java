@@ -17,6 +17,8 @@ public class MyApplication extends Application //该类用于保存全局变量
     public ShoppingCart g_cart; //与登录用户相关联的购物车
     public  Orders g_order; //与登录用户相关联的订单
     public String g_ip="";     //店面服务器IP地址
+    public String g_http_ip="";
+    public int g_communiMode=1;
     public int g_objPort=35885;    //店面服务器监听端口号
     Context g_context;
 

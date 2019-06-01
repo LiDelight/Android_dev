@@ -16,6 +16,10 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -26,7 +30,7 @@ import android.view.View.OnClickListener;
 import android.widget.*;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 	private static final int REGISTERACTIVITY = 1; //设置注册Activity的请求码
 	public static MyApplication mAppInstance =new MyApplication (); //用来设置程序全局变量
 	private static String mUserFileName ="UserInfo";//定义SharedPreferences数据文件名称
@@ -99,6 +103,19 @@ public class MainActivity extends Activity {
 		//imgBtnorder.setOnClickListener(new myImageButtonListener());
 		imgBtndingdan.setOnClickListener(new myImageButtonListener());
 		Log.d("button", "按钮监听");
+
+
+
+
+		/*新建drawlayout部分的初始化*/
+
+		DrawerLayout drawerLayout=(DrawerLayout) findViewById(R.id.drawer_layout);
+		NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+		TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.username);
+		username.setText(mAppInstance.g_user.mUserid);
+		navigationView.setNavigationItemSelectedListener(this);
+
+
 
     }
 
@@ -308,10 +325,10 @@ public class MainActivity extends Activity {
 	}
 
 	@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
     }
 
 	@Override
@@ -323,6 +340,64 @@ public class MainActivity extends Activity {
 					break;
 			}
 		return super.onOptionsItemSelected(item);
-	}  
+	}
+
+
+	@SuppressWarnings("StatementWithEmptyBody")
+	@Override
+	public boolean onNavigationItemSelected(MenuItem item) {
+		// Handle navigation view item clicks here.
+		switch (item.getItemId()) {
+			//个人中心
+			case R.id.indi_infomation:
+				Intent intent = new Intent(MainActivity.this, UserInfoActivity.class);
+				startActivityForResult(intent, REGISTERACTIVITY);
+				break;
+
+				//网络设置
+			case R.id.TCP_Setting:
+
+			final Dialog dialog=new Dialog(MainActivity.this);
+			dialog.setContentView(R.layout.serverip);
+			dialog.setTitle("请输入服务器IP地址");
+			dialog.setCancelable(true);
+			Button btnOK=(Button)dialog.findViewById(R.id.btnOK);
+			final RadioButton rbnTCP=(RadioButton)dialog.findViewById(R.id.rbTcpButton);
+			final RadioButton rbnHttp=(RadioButton)dialog.findViewById(R.id.rbHttpButton);
+			final EditText etServerIP=(EditText) dialog.findViewById(R.id.etHttpServerIP);
+			final EditText etHttpServerIP=(EditText) dialog.findViewById(R.id.etHttpServerIP);
+
+			etServerIP.setText(mAppInstance.g_ip);
+			etHttpServerIP.setText(mAppInstance.g_http_ip);
+			rbnTCP.setChecked(mAppInstance.g_communiMode==1);
+			rbnHttp.setChecked(mAppInstance.g_communiMode==2);
+			dialog.show();
+			btnOK.setOnClickListener(new View.OnClickListener()
+			{
+				@Override
+				public void onClick(View v)
+				{
+					mAppInstance.g_ip=etServerIP.getText().toString();
+					mAppInstance.g_http_ip=etHttpServerIP.getText().toString();
+					if(rbnTCP.isChecked())
+						mAppInstance.g_communiMode=1;
+					else if(rbnHttp.isChecked())
+						mAppInstance.g_communiMode=2;
+					dialog.dismiss();
+				}
+			});
+				break;
+			case R.id.Sur_Setting:
+				break;
+			case R.id.Nav_Share:
+				break;
+			case R.id.Nav_Findpeople:
+				break;
+		}
+
+		DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+		drawer.closeDrawer(GravityCompat.START);
+		return true;
+	}
     
 }

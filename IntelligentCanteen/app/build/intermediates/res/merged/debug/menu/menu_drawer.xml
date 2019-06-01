@@ -18,7 +18,7 @@
             android:title="界面设置"/>
     </group>
 
-    <item android:title="Comminicate">
+    <item android:title="社交">
         <menu>
             <item
                 android:id="@+id/Nav_Share"
@@ -27,7 +27,7 @@
             <item
                 android:id="@+id/Nav_Findpeople"
                 android:icon="@drawable/findpeople"
-                android:title="找到口味相似的人"/>
+                android:title="口味相似的人"/>
 
         </menu>
     </item>
