@@ -32,6 +32,10 @@
         "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\menu\\ordered.xml"
     },
     {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main2_drawer.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\menu\\activity_main2_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\menu\\caipin.xml",
         "source": "C:\\Users\\asus\\Desktop\\zzz\\app\\src\\main\\res\\menu\\caipin.xml"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\MobileOrderFood\\app\\build\\intermediates\\res\\merged\\debug\\menu\\ordered.xml",
         "source": "C:\\Users\\asus\\Desktop\\MobileOrderFood\\app\\src\\main\\res\\menu\\ordered.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\menu\\menu_drawer.xml"
     },
     {
         "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
@@ -94,6 +102,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\menu\\ordered.xml",
         "source": "C:\\Users\\asus\\Desktop\\zzz\\app\\src\\main\\res\\menu\\ordered.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main2.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\menu\\main2.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",

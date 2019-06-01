@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.drawerlayout_main);
 		recycleView=(RecyclerView) findViewById(R.id.rollimg);
 		adapter=new MyRecycleViewAdapter(this, ImgItem_content.imgItemList);
 		Log.d("firstpage", "imglistsize: "+ImgItem_content.imgItemList.size());
@@ -74,11 +74,14 @@ public class MainActivity extends Activity {
     	mAppInstance.g_dbAdepter.FillDishTable(dishes);
 
 
-    	
+
     	FButton imgBtnRest = (FButton) findViewById(R.id.imgBtnRest);
+    	Log.d("button","button按钮绑定");
 		mImgBtnLogin= (FButton)findViewById(R.id.imgBtnLogin);
 		mImgBtnLogout = (FButton) findViewById(R.id.imgBtnLogout);
 		imgBtndingdan=(FButton)findViewById(R.id.imgBtndingdan);
+
+
     	//ImageButton imgBtnTakeout = (ImageButton)findViewById(R.id.imgBtnTakeout);
 		/*  这些按钮被取消掉
     	FButton imgBtnUserInfo = (FButton) findViewById(R.id.imgBtnUserInfo);
@@ -95,6 +98,7 @@ public class MainActivity extends Activity {
 		mImgBtnLogout.setOnClickListener(new myImageButtonListener());
 		//imgBtnorder.setOnClickListener(new myImageButtonListener());
 		imgBtndingdan.setOnClickListener(new myImageButtonListener());
+		Log.d("button", "按钮监听");
 
     }
 

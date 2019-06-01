@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderonedialog.xml",
-        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\orderonedialog.xml"
-    },
-    {
         "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_bottom.xml",
         "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.0.0\\res\\layout\\layout_tab_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderonedialog.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\orderonedialog.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -140,12 +140,12 @@
         "source": "E:\\fyj\\Android-AndroidStudio\\chapter5\\MobileOrderFood\\app\\src\\main\\res\\layout\\activity_ordered.xml"
     },
     {
-        "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdan.xml",
-        "source": "C:\\Users\\asus\\Desktop\\zzz\\app\\src\\main\\res\\layout\\activity_dingdan.xml"
-    },
-    {
         "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdan.xml",
+        "source": "C:\\Users\\asus\\Desktop\\zzz\\app\\src\\main\\res\\layout\\activity_dingdan.xml"
     },
     {
         "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
@@ -198,6 +198,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commentlist.xml",
         "source": "C:\\Users\\asus\\Desktop\\zzz\\app\\src\\main\\res\\layout\\commentlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main2.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\nav_header_main2.xml"
     },
     {
         "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ordereditem.xml",
@@ -286,6 +290,10 @@
     {
         "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawerlayout_main.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\drawerlayout_main.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
@@ -496,6 +504,10 @@
         "source": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\exploded-aar\\it.neokree\\MaterialNavigationDrawer\\1.3.3\\res\\layout\\layout_material_section_icon_large.xml"
     },
     {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_head_main.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\nav_head_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_info.xml",
         "source": "C:\\Users\\Public\\MobileOrderFood111\\app\\src\\main\\res\\layout\\activity_user_info.xml"
     },
@@ -600,6 +612,10 @@
         "source": "C:\\Users\\asus\\Desktop\\zzz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
         "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\Public\\MobileOrderFood111\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -668,12 +684,20 @@
         "source": "E:\\fyj\\Android-AndroidStudio\\chapter5\\MobileOrderFood\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main2.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\app_bar_main2.xml"
+    },
+    {
         "merged": "E:\\fyj\\Android-AndroidStudio\\chapter5\\MobileOrderFood\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tab_main.xml",
         "source": "E:\\fyj\\Android-AndroidStudio\\chapter5\\MobileOrderFood\\app\\src\\main\\res\\layout\\activity_tab_main.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\MobileOrderFood\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comment.xml",
         "source": "C:\\Users\\asus\\Desktop\\MobileOrderFood\\app\\src\\main\\res\\layout\\comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\IntelligentCanteen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main2.xml",
+        "source": "C:\\Users\\Public\\IntelligentCanteen\\app\\src\\main\\res\\layout\\content_main2.xml"
     },
     {
         "merged": "C:\\Users\\Public\\MobileOrderFood111\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
